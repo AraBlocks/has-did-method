@@ -16,6 +16,12 @@ let exists = hasDIDMethod('did:ara:1234') // returns true
 exists = hasDIDMethod('1234') // returns false
 ```
 
+## Tests
+
+```sh
+$ npm run test
+```
+
 ## See Also
 
 * [Decentralized Identity Spec](https://github.com/w3c-ccg/did-spec)
