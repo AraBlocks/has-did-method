@@ -1,0 +1,31 @@
+{
+  "name": "has-did-method",
+  "version": "0.1.0",
+  "description": "Helper module for checking the presence of methods within a DID URI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arablocks/has-did-method.git"
+  },
+  "keywords": [
+    "did",
+    "uri",
+    "decentralized",
+    "identity"
+  ],
+  "author": "Charles Kelly <charles@arablocks.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arablocks/has-did-method/issues"
+  },
+  "homepage": "https://github.com/arablocks/has-did-method#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "did-uri": "^0.2.4"
+  }
+}
